@@ -285,21 +285,24 @@ ul {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.team-list {
+
+.team-ul {
   display: flex;
   gap: 24px;
 }
 
-.team-box {
+.team-list {
   width: calc((100% - 72px) / 4);
+
+  background: #fff;
+}
+
+.team-box {
   border-radius: 0 0 4px 4px;
   background: #f4f4fd;
-  width: 264;
-  height: 428;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .team-name {
