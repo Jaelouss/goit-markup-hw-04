@@ -404,8 +404,7 @@ ul {
   transform: translateY(100%);
 }
 
-.portfolio-box-img:hover,
-.portfolio-box-img:focus {
+.portfolio-box-li:hover .portfolio-work-text-hidden {
   transform: translateY(0%);
 }
 
