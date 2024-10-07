@@ -115,8 +115,7 @@ ul {
 }
 
 .nav-book:hover,
-.nav-book:focus,
-.nav-book:active {
+.nav-book:focus {
   color: #404bbf;
 }
 
