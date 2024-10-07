@@ -427,7 +427,7 @@ ul {
   transform: translateY(100%);
 }
 
-.portfolio-work-text-hidden:hover {
+.portfolio-box-img:hover {
   transform: translateY(0%);
 }
 
