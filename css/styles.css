@@ -147,8 +147,9 @@ ul {
 .address-book:hover,
 .address-book:focus {
   color: #404bbf;
-  border: 1px solid #404bbf;
+  /* border: 1px solid #404bbf; */
 }
+
 
 /* ПЕРША */
 
