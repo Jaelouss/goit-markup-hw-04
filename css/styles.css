@@ -107,9 +107,18 @@ ul {
 }
 
 .studio-book {
+  color: #404bbf;
+}
+
+.studio-book::after {
   content: "";
-  border-bottom: 4px solid #404bbf;
   border-radius: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
 }
 
 .address {
@@ -139,7 +148,6 @@ ul {
 .address-book:focus {
   color: #404bbf;
 }
-
 
 /* ПЕРША */
 
@@ -475,7 +483,6 @@ ul {
 .footer-link:focus {
   background-color: #31d0aa;
 }
-
 
 .footer-social-icons {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
